@@ -184,17 +184,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const clickableTopics = document.querySelectorAll('.clickable-topic');
     clickableTopics.forEach(topic => {
         topic.addEventListener('click', (e) => {
-            e.stopPropagation(); // Prevent card from triggering if it was already open
+            e.stopPropagation(); 
             const details = topic.querySelector('.topic-details');
             const icon = topic.querySelector('i');
 
             if (details) {
-                const isOpen = details.style.display === 'block';
-                details.style.display = isOpen ? 'none' : 'block';
+                const isCurrentlyOpen = details.style.display === 'block';
+                
+                // 1. Close other topics in the same list (Accordion effect)
+                const parentList = topic.closest('.ementa-list-v2');
+                if (parentList && !isCurrentlyOpen) {
+                    parentList.querySelectorAll('.topic-details').forEach(d => d.style.display = 'none');
+                    parentList.querySelectorAll('.clickable-topic i').forEach(i => {
+                        i.classList.remove('ri-arrow-down-s-line');
+                        i.classList.add('ri-arrow-right-s-line');
+                    });
+                }
+
+                // 2. Toggle current topic
+                details.style.display = isCurrentlyOpen ? 'none' : 'block';
 
                 if (icon) {
-                    icon.classList.toggle('ri-arrow-right-s-line', isOpen);
-                    icon.classList.toggle('ri-arrow-down-s-line', !isOpen);
+                    icon.classList.toggle('ri-arrow-right-s-line', isCurrentlyOpen);
+                    icon.classList.toggle('ri-arrow-down-s-line', !isCurrentlyOpen);
                 }
             }
         });
