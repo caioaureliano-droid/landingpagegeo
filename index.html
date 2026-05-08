@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Transforme seu negócio com as soluções de geolocalização do Google Maps Platform, oferecidas pela excelência da IPNET by vivo.">
+    <title>Google Maps Platform | IPNET by vivo</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="logo-ipnet-by-vivo.png" alt="IPNET by vivo" class="main-logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home MS</a></li>
+                <li class="nav-item has-dropdown">
+                    <a href="index.html#o-que-e">Serviços <i class="ri-arrow-down-s-line"></i></a>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a href="google-maps.html">Geo Services</a></li>
+                        <li><a href="ms-workspace.html">Collaboration Services</a></li>
+                        <li><a href="ms-tss.html">Tech Solution Services</a></li>
+                        <li><a href="ms-cloud.html">Cloud | Infra Services</a></li>
+                        <li><a href="ms-data.html">Data Services</a></li>
+                        <li><a href="ms-finops.html">FinOps</a></li>
+                        <li><a href="#">Alocação e Desenvolvimento</a></li>
+                    </ul>
+
+                </li>
+                <li class="nav-item"><a href="index.html#cases"><i class="ri-trophy-line"></i> Cases</a></li>
+                <li class="nav-item"><a href="https://cims.ipnet.cloud/" target="_blank"><i class="ri-external-link-line"></i> CIMS</a></li>
+            </ul>
+            
+
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <i class="ri-menu-line"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content fade-up">
+
+                <h1 class="hero-title">Crie o mundo que<br>você <span>quer ver</span></h1>
+                <p style="font-size: 1.1rem; font-weight: 500; color: var(--vivo-purple); margin-top: -10px; margin-bottom: 20px; opacity: 0.85;">Inteligência de localização para transformar o seu negócio.</p>
+                <p class="hero-subtitle">Expertise e apoio estratégico para impulsionar seus projetos. Ajudamos sua equipe a dominar a geolocalização através de consultoria, workshops e sustentação técnica contínua.</p>
+                <div class="hero-actions">
+                    <a href="#geo-core" class="btn btn-primary btn-lg">Explorar Serviços <i
+                            class="ri-arrow-right-line"></i></a>
+                    <a href="#metodologia" class="btn btn-secondary btn-lg">Conheça a metodologia</a>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-up delay-2">
+                <div class="glass-card map-card">
+                    <div class="map-header">
+                        <div class="dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="search-bar">
+                            <i class="ri-search-line"></i> Buscar rotas, lugares...
+                        </div>
+                    </div>
+                    <div class="map-body">
+                        <!-- Simulated Map Elements -->
+                        <div class="route-line"></div>
+                        <div class="marker marker-1"><i class="ri-map-pin-fill"></i></div>
+                        <div class="marker marker-2 vivo-color"><i class="ri-user-location-fill"></i></div>
+                        <div class="marker marker-3"><i class="ri-store-2-fill"></i></div>
+
+                        <div class="info-window floating-anim">
+                            <div class="driver-info">
+                                <div class="avatar"></div>
+                                <div>
+                                    <h4>Entrega Otimizada</h4>
+                                    <p>Chegando em 12 min</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Why IPNET Section -->
+    <section id="metodologia" class="section container">
+        <div class="why-ipnet-grid">
+            <!-- Left Side: Text -->
+            <div class="why-ipnet-text reveal">
+                <div style="display: inline-flex; align-items: center; gap: 8px; margin-bottom: 24px;">
+                    <span style="color: var(--ms-lime); font-size: 2rem; font-weight: 800;">//</span>
+                    <h2 style="font-size: 2.5rem; font-weight: 800; color: var(--text-primary); line-height: 1.1;">Por que implementar com a IPNET by Vivo?</h2>
+                </div>
+                
+                <p style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 30px;">
+                    Com essa combinação de visibilidade, automação e personalização, você transforma dados de localização em <strong>vantagem competitiva real</strong>.
+                </p>
+                
+                <p style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.7;">
+                    Entenda como a Google Maps Platform pode <strong>aumentar a eficiência da sua operação</strong> e melhorar a experiência dos seus usuários.
+                </p>
+            </div>
+
+            <!-- Right Side: Cards List -->
+            <div class="why-ipnet-cards reveal delay-1">
+                <div class="value-card">
+                    <div class="card-icon-circle"><i class="ri-user-voice-line"></i></div>
+                    <div class="card-text"><strong>Consultoria Especializada:</strong> Entendemos profundamente os desafios e objetivos específicos da sua operação;</div>
+                </div>
+                <div class="value-card">
+                    <div class="card-icon-circle"><i class="ri-shield-check-line"></i></div>
+                    <div class="card-text"><strong>Implementação Ágil:</strong> Garantimos um setup seguro com suporte técnico contínuo e especializado;</div>
+                </div>
+                <div class="value-card">
+                    <div class="card-icon-circle"><i class="ri-settings-4-line"></i></div>
+                    <div class="card-text"><strong>Customização Total:</strong> Soluções adaptadas ao seu mercado, seja para logística, varejo ou mobilidade corporativa;</div>
+                </div>
+                <div class="value-card">
+                    <div class="card-icon-circle"><i class="ri-funds-line"></i></div>
+                    <div class="card-text"><strong>Otimização de Custos:</strong> Gestão inteligente de licenciamento e assessoria para redução real do consumo de APIs.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- APIs Section: Portfólio de Serviços -->
+    <section id="apis" class="apis-section section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Ecossistema <span>Google Maps Platform</span></h2>
+                <p class="section-desc">As APIs oficiais do Google para transformar a geolocalização do seu negócio. A IPNET by vivo atua como sua parceira estratégica, orientando sua equipe na configuração ideal e na otimização contínua de cada recurso para garantir performance e eficiência.</p>
+            </div>
+
+            <div class="apis-grid-container" style="position: relative;">
+
+
+                <div class="solutions-grid" id="apis-grid" style="grid-template-columns: repeat(4, 1fr);">
+                    <!-- Card 1: Maps -->
+                    <div class="solution-card reveal" style="cursor: default;">
+                        <div class="card-icon">
+                            <i class="ri-map-2-line"></i>
+                        </div>
+                        <h3>Maps API</h3>
+                        <p class="api-desc">Crie experiências de mapas imersivas e intuitivas com dados em tempo real e alta capacidade de customização para qualquer dispositivo.</p>
+                        
+                        <ul class="feature-list">
+                            <li><i class="ri-check-line"></i> Advanced Markers</li>
+                            <li><i class="ri-check-line"></i> Estilização em Nuvem</li>
+                            <li><i class="ri-check-line"></i> Visualização 2D e 3D</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 2: Routes -->
+                    <div class="solution-card reveal delay-1" style="cursor: default;">
+                        <div class="card-icon vivo-bg">
+                            <i class="ri-route-line"></i>
+                        </div>
+                        <h3>Routes API</h3>
+                        <p class="api-desc">Otimize a logística e reduza custos operacionais com roteamento inteligente, direções precisas e matrizes de distância em tempo real.</p>
+                        
+                        <ul class="feature-list">
+                            <li><i class="ri-check-line"></i> Compute Routes</li>
+                            <li><i class="ri-check-line"></i> Tráfego em Tempo Real</li>
+                            <li><i class="ri-check-line"></i> Compute Routes Matrix</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 3: Places -->
+                    <div class="solution-card reveal delay-2" style="cursor: default;">
+                        <div class="card-icon">
+                            <i class="ri-map-pin-user-line"></i>
+                        </div>
+                        <h3>Places API (New)</h3>
+                        <p class="api-desc">Acesse detalhes ricos sobre milhões de lugares e facilite a jornada do usuário com busca inteligente e validação de endereços.</p>
+                        
+                        <ul class="feature-list">
+                            <li><i class="ri-check-line"></i> Autocomplete de endereços</li>
+                            <li><i class="ri-check-line"></i> Detalhes ricos de POIs</li>
+                            <li><i class="ri-check-line"></i> Validação de Endereço</li>
+                        </ul>
+                    </div>
+
+                    <!-- Card 4: Environment -->
+                    <div class="solution-card reveal delay-3" style="cursor: default;">
+                        <div class="card-icon vivo-bg">
+                            <i class="ri-leaf-line"></i>
+                        </div>
+                        <h3>Environment API</h3>
+                        <p class="api-desc">Aproveite dados ambientais para criar soluções sustentáveis e alertas baseados em geolocalização como Qualidade do Ar e Pólen.</p>
+                        
+                        <ul class="feature-list">
+                            <li><i class="ri-check-line"></i> Solar & Energia</li>
+                            <li><i class="ri-check-line"></i> Qualidade do Ar</li>
+                            <li><i class="ri-check-line"></i> Contagem de Pólen</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+
+
+
+    <!-- Segment Section: Exemplos por Vertical -->
+    <section id="segmentos" class="industries section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Google Maps para cada <span>Segmento</span></h2>
+                <p class="section-desc">Veja exemplos práticos de como transformar desafios setoriais em vantagens competitivas utilizando os recursos de localização do Google.</p>
+            </div>
+
+            <div class="industries-grid" style="grid-template-columns: repeat(4, 1fr);">
+                <!-- Logística -->
+                <div class="industry-card reveal">
+                    <div class="industry-img">
+                        <i class="ri-truck-line"></i>
+                    </div>
+                    <div class="industry-info">
+                        <h3>Logística & Transporte</h3>
+                        <p>Otimize frotas, reduza custos de combustível e ofereça previsibilidade total na última milha.
+                        </p>
+                        <ul class="industry-features">
+                            <li><i class="ri-checkbox-circle-fill"></i> Roteamento Dinâmico</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Rastreamento em Tempo Real</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Cálculo de Estimativa de Chegada (ETA)</li>
+            </ul>
+                    </div>
+                </div>
+
+                <!-- Finanças -->
+                <div class="industry-card reveal delay-1">
+                    <div class="industry-img">
+                        <i class="ri-bank-line"></i>
+                    </div>
+                    <div class="industry-info">
+                        <h3>Bancos & Fintechs</h3>
+                        <p>Aumente a segurança em transações e melhore a experiência de busca por pontos físicos.</p>
+                        <ul class="industry-features">
+                            <li><i class="ri-checkbox-circle-fill"></i> Localizador de Agências/ATMs</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Prevenção contra Fraudes via Geo</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Visualização de Gastos por Local</li>
+            </ul>
+                    </div>
+                </div>
+
+                <!-- Varejo -->
+                <div class="industry-card reveal delay-2">
+                    <div class="industry-img">
+                        <i class="ri-shopping-bag-3-line"></i>
+                    </div>
+                    <div class="industry-info">
+                        <h3>Varejo & E-commerce</h3>
+                        <p>Conecte o mundo digital às lojas físicas e acelere o fechamento de carrinhos.</p>
+                        <ul class="industry-features">
+                            <li><i class="ri-checkbox-circle-fill"></i> Checkout Acelerado (Places)</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Localizador de Lojas Inteligente</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Marketing de Proximidade</li>
+            </ul>
+                    </div>
+                </div>
+
+                <!-- Imobiliário -->
+                <div class="industry-card reveal delay-3">
+                    <div class="industry-img">
+                        <i class="ri-building-2-line"></i>
+                    </div>
+                    <div class="industry-info">
+                        <h3>Imobiliário & Proptechs</h3>
+                        <p>Ofereça uma visão rica da região para aumentar a confiança e o interesse do comprador.</p>
+                        <ul class="industry-features">
+                            <li><i class="ri-checkbox-circle-fill"></i> Tours Virtuais (Street View)</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Análise de Vizinhança e POIs</li>
+                            <li><i class="ri-checkbox-circle-fill"></i> Potencial Solar e Meio Ambiente</li>
+            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Geo Services Section -->
+    
+    <section id="geo-core" class="section" style="background: #ffffff; padding: 100px 0; border-top: 1px solid #eee;">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Portfólio de <span>Serviços</span></h2>
+                <p class="section-desc">Nossa camada de serviço especializado para garantir eficiência e controle total sobre o consumo da sua plataforma.</p>
+            </div>
+            
+            <div class="geo-grid-container">
+                <!-- Back Button -->
+                <button id="btn-back-grid" class="btn btn-secondary btn-back-solucoes" style="display: none; margin-bottom: 30px;">
+                    <i class="ri-arrow-left-line"></i> Voltar ao Menu
+                </button>
+
+
+                <div class="geo-core-grid reveal" id="geo-grid">
+                    <!-- Maps Report -->
+                    <div class="geo-core-card clickable-card" data-target="detail-report">
+                        <div class="geo-core-icon"><i class="ri-bar-chart-box-line"></i></div>
+                        <h3 class="geo-core-title">Maps Report</h3>
+                        <p class="geo-core-desc">Exposição de elementos a nível gerencial. Possibilita visibilidade de custos, volumes e novos projetos por meio de relatórios abrangentes.</p>
+                        <div class="card-detail-content" id="detail-report" style="display: none;">
+                            
+    <p>O Maps Report oferece visibilidade total sobre o seu ambiente GMP:</p>
+    <ul class="detail-list">
+        <li>Visão clara sobre o consumo e faturamento local.</li>
+        <li>Identificação de SKUs que mais impactam os custos.</li>
+        <li>Acompanhamento de volume por API e projetos individuais.</li>
+        <li>Suporte para faturamento em BRL com impostos locais.</li>
+    </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- Suporte -->
+                    <div class="geo-core-card clickable-card" data-target="detail-support">
+                        <div class="geo-core-icon"><i class="ri-customer-service-2-line"></i></div>
+                        <h3 class="geo-core-title">Suporte GMP N1 e N2</h3>
+                        <p class="geo-core-desc">Atendimento abrangente e especializado para orientação na aplicação, gestão de sistemas e resolução de problemas complexos.</p>
+                        <div class="card-detail-content" id="detail-support" style="display: none;">
+                            
+    <p>Orientação técnica especializada N1 e N2 para garantir que o seu ambiente nunca pare:</p>
+    <ul class="detail-list">
+        <li>Apoio integral em configurações e incidentes técnicos.</li>
+        <li>Atendimento direto em Português com time certificado.</li>
+        <li>Esclarecimento de dúvidas sobre arquitetura e migrações.</li>
+        <li>Intermediação proativa junto ao suporte do Google Cloud.</li>
+    </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- Workshop -->
+                    <div class="geo-core-card clickable-card" data-target="detail-workshop">
+                        <div class="geo-core-icon"><i class="ri-presentation-fill"></i></div>
+                        <h3 class="geo-core-title">Workshop GMP</h3>
+                        <p class="geo-core-desc">Workshop estratégico de 1 hora para capacitação nas interfaces administrativas e APIs da plataforma Google Maps.</p>
+                        <div class="card-detail-content" id="detail-workshop" style="display: none;">
+    <p>Sessões estratégicas de até 1h. Escolha o tema para o seu time:</p>
+
+    <div class="workshop-detail-grid">
+        
+        <div class="workshop-item clickable-workshop" data-id="1">
+            <div class="workshop-item-header">
+                <span class="workshop-number">1</span>
+                <div class="workshop-basic-info">
+                    <h4>Visão Geral do Ecossistema GMP</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Panorama completo das APIs para revelar funções essenciais e oportunidades estratégicas de inovação.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Novas equipes e gestores que buscam entender o potencial do Google Maps.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Explora os 4 pilares: Maps, Places, Routes e Environment de forma estratégica.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="2">
+            <div class="workshop-item-header">
+                <span class="workshop-number">2</span>
+                <div class="workshop-basic-info">
+                    <h4>Introdução ao Pilar de Maps</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Foco na Maps JavaScript API para criar mapas interativos e customizados que se integram à sua marca.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Desenvolvedores, Designers e POs focados em experiência do usuário.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Personalização de estilos, marcadores dinâmicos e otimização de performance.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="3">
+            <div class="workshop-item-header">
+                <span class="workshop-number">3</span>
+                <div class="workshop-basic-info">
+                    <h4>Introdução ao Pilar de Places</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Desvende o poder da inteligência geográfica de locais, indo além da simples busca.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Equipes técnicas que precisam enriquecer apps com dados precisos de pontos de interesse.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Autocomplete, Geocoding e Place Details para descoberta eficiente de locais.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="4">
+            <div class="workshop-item-header">
+                <span class="workshop-number">4</span>
+                <div class="workshop-basic-info">
+                    <h4>Introdução ao Pilar de Routes</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Otimize operações logísticas e de campo planejando rotas eficientes e estimando tempos precisos.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gerentes de Logística, Frotas e Engenheiros de Operações.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Planejamento de percursos, cálculo de ETA e otimização de frotas com múltiplos pontos.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="5">
+            <div class="workshop-item-header">
+                <span class="workshop-number">5</span>
+                <div class="workshop-basic-info">
+                    <h4>Introdução ao Pilar de Environment</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Descubra como APIs de sustentabilidade (Solar e Air Quality) podem impulsionar decisões ESG.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Analistas de Sustentabilidade, POs e empresas buscando inovação ambiental.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Avaliação de potencial solar e monitoramento da qualidade do ar em tempo real.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="6">
+            <div class="workshop-item-header">
+                <span class="workshop-number">6</span>
+                <div class="workshop-basic-info">
+                    <h4>Governança e Boas Práticas</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Guia prático para começar projetos do jeito certo, organizando ambientes e credenciais.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Líderes de Projeto e Arquitetos que iniciam novos ambientes GMP.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Estruturação de ambientes (Dev/HML/Prod), habilitação segura de APIs e nomeação de chaves.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="7">
+            <div class="workshop-item-header">
+                <span class="workshop-number">7</span>
+                <div class="workshop-basic-info">
+                    <h4>Setup de Ambiente para Projetos</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Garanta que seu ambiente permaneça seguro e otimizado através de monitoramento contínuo.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Administradores de Segurança e Auditores de TI.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Checklist completo de governança e uso do feed de atividades do GCP para auditoria.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="8">
+            <div class="workshop-item-header">
+                <span class="workshop-number">8</span>
+                <div class="workshop-basic-info">
+                    <h4>Diagnóstico de Erros com o GCP</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Capacite sua equipe a resolver problemas de forma rápida e autônoma usando Métricas e Logs.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Equipes de Suporte e SREs responsáveis pela saúde das aplicações.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Navegação no Metrics Explorer e Logs Explorer para identificar causas de erros 4xx e 5xx.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="9">
+            <div class="workshop-item-header">
+                <span class="workshop-number">9</span>
+                <div class="workshop-basic-info">
+                    <h4>Faturamento no GCP</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Transforme a complexa fatura do Google Cloud em uma verdadeira ferramenta de gestão.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gestores Financeiros, POs e profissionais de FinOps.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Decifrando SKUs, agrupamento de custos por projeto e análises de tendências de gastos.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="10">
+            <div class="workshop-item-header">
+                <span class="workshop-number">10</span>
+                <div class="workshop-basic-info">
+                    <h4>Dominando o IAM para GMP</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Proteja seu ambiente com gestão de acessos precisa usando o Princípio do Menor Privilégio.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Engenheiros DevOps e Administradores de Segurança em nuvem.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Conceitos de Papéis e Membros, gestão estruturada com Grupos e separação de responsabilidades.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="11">
+            <div class="workshop-item-header">
+                <span class="workshop-number">11</span>
+                <div class="workshop-basic-info">
+                    <h4>Otimização de Custos na Places API</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Reduza custos em até 70% com técnicas de Field Masking e Session Tokens.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Arquitetos de Software e profissionais de FinOps que buscam economia imediata.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Análise de código 'antes e depois' e cálculos de economia baseados em SKUs específicos.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="12">
+            <div class="workshop-item-header">
+                <span class="workshop-number">12</span>
+                <div class="workshop-basic-info">
+                    <h4>Localizador de Lojas (Store Locator)</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Estratégia para construir localizadores eficientes que guiam clientes online até sua loja física.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gerentes de Produto e Marketing em negócios com presença física.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Mapeamento da jornada do usuário, papel do Geocoding e uso estratégico de Proximidade (Nearby).</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <div class="workshop-item clickable-workshop" data-id="13">
+            <div class="workshop-item-header">
+                <span class="workshop-number">13</span>
+                <div class="workshop-basic-info">
+                    <h4>Migração para o Novo Licenciamento</h4>
+                </div>
+                <i class="ri-add-line expand-icon"></i>
+            </div>
+            <div class="workshop-item-details" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-megaphone-line"></i> Elevator Pitch</h5>
+                    <p>Entenda as mudanças estruturais e aproveite ao máximo o novo modelo de faturamento Google.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Diretores de TI e Clientes atuais que precisam se adaptar às novas APIs.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-check-line"></i> Solução / Escopo</h5>
+                    <p>Mapeamento De/Para de APIs, análise de faixas de desconto e diretrizes para adaptação técnica.</p>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-workshop" style="margin-top: 15px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+                    </div>
+
+                    <!-- Treinamento -->
+                    <div class="geo-core-card clickable-card" data-target="detail-training">
+                        <div class="geo-core-icon"><i class="ri-graduation-cap-line"></i></div>
+                        <h3 class="geo-core-title">Treinamento GMP</h3>
+                        <p class="geo-core-desc">Curso intensivo de até 3 horas adaptado ao nível da equipe para utilização eficaz de todos os recursos da plataforma.</p>
+                        <div class="card-detail-content" id="detail-training" style="display: none;">
+                            <p>Sessões práticas de 3h para até 15 participantes. Escolha o seu trilha:</p>
+                            
+    <div class="training-detail-grid-v2">
+
+        <!-- Treinamento 1 -->
+        <div class="training-item-v2 clickable-training" data-id="1">
+            <div class="training-item-header">
+                <span class="training-number">1</span>
+                <div class="training-basic-info">
+                    <h4>GMP Para Desenvolvedores</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-1" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Desenvolvedores, Engenheiros de Software, Arquitetos de Solução e Tech Leads.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Construção de aplicações seguras e otimizadas, evitando erros comuns e custos desnecessários.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Setup e Blindagem de Credenciais (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Tour guiado pelo Painel de APIs do Google Cloud Console.</li>
+                                    <li>Habilitação estratégica de APIs e nomeação de projetos proativa (Tagging).</li>
+                                    <li>Restrições de chave (API, App, IP/Referrer e Restrição HTTP).</li>
+                                    <li>Estratégias para armazenamento seguro de chaves (.env, Secret Manager).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Uso Eficiente e Controle de Consumo (75m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Advanced Field Masking: Retorne apenas o que você usa para economizar custos.</li>
+                                    <li>Uso estratégico de Session Tokens em APIs de Autocomplete para reduzir chamadas.</li>
+                                    <li>Monitoramento de Quotas: Como configurar orçamentos e limites por usuário.</li>
+                                    <li>Interpretação e diagnóstico de erros (Diferença entre causas de 4xx e 5xx).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Governança e Arquitetura no GCP (45m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Melhores práticas de Arquitetura de Projetos (Separação entre Dev, HML e Prod).</li>
+                                    <li>IAM para Desenvolvedores: Grupos e Papéis granulares específicos para GMP.</li>
+                                    <li>Uso de Service Accounts para automatização e segurança de back-end.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 2 -->
+        <div class="training-item-v2 clickable-training" data-id="2">
+            <div class="training-item-header">
+                <span class="training-number">2</span>
+                <div class="training-basic-info">
+                    <h4>GMP para Administradores</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-2" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gestores de TI, Administradores de GCP, Líderes de Projeto e profissionais de FinOps.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Implementação de governança financeira e de acessos completa, eliminando surpresas na fatura.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Arquitetura e Acesso Seguro (45m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Criação de conta Cloud e vinculação de Billing. Hierarquia completa: Organização > Pasta > Projeto.</li>
+                                    <li>Conceitos fundamentais de IAM: Gestão de Papéis, Membros e Permissões.</li>
+                                    <li>Habilitação e auditoria de log de atividades.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>FinOps para Google Maps (75m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Análise da Fatura Cloud do Google Maps: Onde estão os custos?</li>
+                                    <li>Como funciona o Crédito Mensal de $200 (Grátis Todo Mês).</li>
+                                    <li>Decifrando as tabelas de descontos por volume (Brackets).</li>
+                                    <li>Alertas de Faturamento: Configurando notificações que evitam sustos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 3 -->
+        <div class="training-item-v2 clickable-training" data-id="3">
+            <div class="training-item-header">
+                <span class="training-number">3</span>
+                <div class="training-basic-info">
+                    <h4>Decifrando o Google Maps: Um Guia Estratégico</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-3" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gerentes de Produto, Líderes de Inovação, Arquitetos de Solução e Analistas de Negócio.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Decisões estratégicas sobre o uso de geolocalização, escolhendo as APIs corretas para cada desafio.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Os 4 Pilares Estratégicos (45m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Categorização estratégica: Maps, Routes, Places e Environment.</li>
+                                    <li>Apresentação de Casos Reais (Estudos de Caso de sucessos globais).</li>
+                                    <li>O valor oculto dos dados geográficos no Business Intelligence.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>O Cardápio de APIs (75m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Análise visual das principais APIs (Directions, Matrix, Autocomplete).</li>
+                                    <li>Como escolher a ferramenta certa para o seu problema técnico.</li>
+                                    <li>Comparativo técnico conceitual entre as diferentes APIs de rotas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 4 -->
+        <div class="training-item-v2 clickable-training" data-id="4">
+            <div class="training-item-header">
+                <span class="training-number">4</span>
+                <div class="training-basic-info">
+                    <h4>Dominando a API Places</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-4" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gerentes de Produto, Marketing, Business Intelligence e Arquitetos de Solução.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Transformar a Places API de um centro de custo em um motor de inteligência de negócio.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>O ecossistema Places: Arsenal Estratégico (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>O ecossistema Places: Text Search vs. Nearby Search, Autocomplete e Place Details.</li>
+                                    <li>Fluxograma de decisão: Qual API usar para cada pergunta de negócio específica.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Otimização de Custos (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Hands-On: Como alcançar economia de até 80% com uso correto de field masking.</li>
+                                    <li>Agrupamento de chamadas com o uso de session tokens.</li>
+                                    <li>Análise de casos reais e o real impacto financeiro.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>A Nova Places API (30m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Apresentação dos novos atributos integrados (acessibilidade, etc.).</li>
+                                    <li>Melhorias de performance nativa e como se preparar para a migração obrigatória.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 5 -->
+        <div class="training-item-v2 clickable-training" data-id="5">
+            <div class="training-item-header">
+                <span class="training-number">5</span>
+                <div class="training-basic-info">
+                    <h4>Construindo um Checkout de E-commerce</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-5" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gerentes de Produto e E-commerce, Desenvolvedores e Arquitetos focados em CRO.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Construção de uma experiência de checkout fluida que diminui o abandono e minimiza erros de entrega.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Addresses & Checkout (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Psicologia do abandono em formulários e impacto de erros de endereço.</li>
+                                    <li>Autocomplete na Prática: Implementação de preenchimento inteligente.</li>
+                                    <li>Address Validation API: Correção e padronização para reduzir falhas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 6 -->
+        <div class="training-item-v2 clickable-training" data-id="6">
+            <div class="training-item-header">
+                <span class="training-number">6</span>
+                <div class="training-basic-info">
+                    <h4>Geocodificação de Alta Performance</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-6" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Engenheiros de Dados, Arquitetos de Solução e equipes de back-end.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Implementação de pipelines resilientes e escaláveis para processamento de milhões de endereços.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>A Arte da Geocodificação (45m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Qualidade vs. Rapidez: Entendendo os componentes do resultado.</li>
+                                    <li>Geocoding vs Address Validation: Qual usar e quando combiná-los.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>O Desafio do Volume e Escala (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Arquitetura assíncrona com filas (Pub/Sub) e serverless (Cloud Functions).</li>
+                                    <li>Caching e Conformidade: As regras rígidas de Caching do Google.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 7 -->
+        <div class="training-item-v2 clickable-training" data-id="7">
+            <div class="training-item-header">
+                <span class="training-number">7</span>
+                <div class="training-basic-info">
+                    <h4>Google Maps para Mobile</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-7" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Desenvolvedores Nativos (Android e iOS), Tech Leads e Arquitetos.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Criação de experiências de mapa nativas otimizadas em performance e consumo de bateria.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Performance e SDKs (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Integração profunda de SDKs nativos e renderização por GPU.</li>
+                                    <li>Implementação de Modo Lite e Clusterização de marcadores.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 8 -->
+        <div class="training-item-v2 clickable-training" data-id="8">
+            <div class="training-item-header">
+                <span class="training-number">8</span>
+                <div class="training-basic-info">
+                    <h4>Logística Inteligente</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-8" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gestores de Logística, Arquitetos e Engenheiros de Software.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Desenvolvimento de plataforma logística que otimiza rotas e encanta o cliente final.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Planejamento e Execução (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Cálculo automático de Matrizes de Distância e impacto do trânsito.</li>
+                                    <li>Ativação da Nova Routes API: Otimização Extrema e Waypoints.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Rastreamento e ETA (60m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Roads API (Ajuste à via) e cálculo proativo de ETA.</li>
+                                    <li>Asset Tracking e monitoramento de frota.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+
+        <!-- Treinamento 9 -->
+        <div class="training-item-v2 clickable-training" data-id="9">
+            <div class="training-item-header">
+                <span class="training-number">9</span>
+                <div class="training-basic-info">
+                    <h4>Mapas Dinâmicos Avançados</h4>
+                    <span class="training-duration-badge"><i class="ri-time-line"></i> 3 horas</span>
+                </div>
+                <i class="ri-add-circle-line expand-icon"></i>
+            </div>
+            <div class="training-item-details" id="training-details-9" style="display: none;">
+                <div class="detail-section">
+                    <h5><i class="ri-user-follow-line"></i> Público Alvo</h5>
+                    <p>Gestores de Operações, Analistas de BI e Desenvolvedores Front-end.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-sparkling-fill"></i> Transformação</h5>
+                    <p>Construção de interfaces vivas onde a localização interage diretamente com os dados do negócio.</p>
+                </div>
+                <div class="detail-section">
+                    <h5><i class="ri-book-read-line"></i> Principais Tópicos Abordados</h5>
+                    <div class="ementa-list-v2">
+                        <div class="ementa-topic clickable-topic">
+                            <strong>Interatividade e Interface (45m)</strong>
+                            <div class="topic-details" style="display: none;">
+                                <ul>
+                                    <li>Controle Programático: Centro, Zoom e Gestão de Camadas.</li>
+                                    <li>Street View e Customização de Marcadores.</li>
+                                    <li>Criação de Heatmaps para visualização de dados.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="methodology-box">
+                    <h5><i class="ri-focus-3-line"></i> Metodologia de Ensino</h5>
+                    <div class="methodology-grid">
+                        <div class="method-item"><i class="ri-video-chat-line"></i><span><strong>100% Online:</strong> Sessões interativas via Meet.</span></div>
+                        <div class="method-item"><i class="ri-terminal-box-line"></i><span><strong>Hands-On:</strong> Prática no Console Cloud.</span></div>
+                        <div class="method-item"><i class="ri-file-list-3-line"></i><span><strong>Material:</strong> PDFs e checklists.</span></div>
+                        <div class="method-item"><i class="ri-award-line"></i><span><strong>Certificado:</strong> Certificado IPNET by vivo.</span></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm btn-close-training" style="margin-top: 20px;">Fechar Detalhes</button>
+            </div>
+        </div>
+    </div>
+
+                        </div>
+                    </div>
+
+                    <div class="geo-core-card clickable-card" data-target="detail-assessment">
+                        <div class="geo-core-icon"><i class="ri-search-eye-line"></i></div>
+                        <h3 class="geo-core-title">Maps Assessment</h3>
+                        <p class="geo-core-desc">Análise profunda para identificar riscos e oportunidades de otimização de custos e performance nos 30 dias após as melhorias.</p>
+                        <div class="card-detail-content" id="detail-assessment" style="display: none;">
+                            <p>Análise técnica detalhada para maximizar o ROI do Google Maps:</p>
+                            <ul class="detail-list">
+                                <li>Mapeamento de riscos de segurança e vulnerabilidades.</li>
+                                <li>Identificação de oportunidades de economia imediata de custos.</li>
+                                <li>Avaliação da arquitetura atual vs. melhores práticas do mercado.</li>
+                                <li>Levantamento detalhado do impacto financeiro pós-melhorias.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Discovery Section (Maturity Checklist) -->
+    <section id="discovery" class="section discovery-minimal">
+        <div class="container">
+            <div class="discovery-grid">
+                <div class="discovery-header reveal">
+                    <span class="badge-pill">Quick Discovery</span>
+                    <h2>5 Perguntas para medir sua <span>Maturidade</span></h2>
+                    <p>Mapear sua situação atual é o primeiro passo para uma gestão estratégica de Google Maps. Como você responderia a estas perguntas hoje?</p>
+                </div>
+
+                <div class="discovery-interactive reveal delay-1">
+                    <div class="steps-nav">
+                        <button class="step-dot active" data-step="1">1</button>
+                        <button class="step-dot" data-step="2">2</button>
+                        <button class="step-dot" data-step="3">3</button>
+                        <button class="step-dot" data-step="4">4</button>
+                        <button class="step-dot" data-step="5">5</button>
+                    </div>
+
+                    <div class="steps-container">
+                        <div class="step-content active" id="step-1">
+                            <h3>Governança & Segurança</h3>
+                            <p>Suas chaves de API possuem restrições ativas (HTTP, IP ou App) para evitar o uso indevido por terceiros e garantir a segurança do seu faturamento?</p>
+                        </div>
+                        <div class="step-content" id="step-2">
+                            <h3>Eficiência Técnica</h3>
+                            <p>Sua implementação utiliza as versões mais recentes das APIs e técnicas de caching para otimizar o carregamento e reduzir o volume de requisições desnecessárias?</p>
+                        </div>
+                        <div class="step-content" id="step-3">
+                            <h3>Gestão Financeira</h3>
+                            <p>O pagamento da plataforma é realizado via faturamento local em Reais (BRL) com nota fiscal, ou sua operação ainda está exposta ao IOF e variações cambiais do cartão de crédito?</p>
+                        </div>
+                        <div class="step-content" id="step-4">
+                            <h3>Monitoramento Ativo</h3>
+                            <p>Existem alertas de orçamento e limites de cotas configurados para identificar anomalias de consumo em tempo real, evitando surpresas no fechamento da fatura?</p>
+                        </div>
+                        <div class="step-content" id="step-5">
+                            <h3>Inteligência de Dados</h3>
+                            <p>O Google Maps é utilizado de forma estratégica (como otimização de rotas ou enriquecimento de dados de locais) ou apenas como um elemento estático de visualização?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Benefits / Why IPNET by vivo -->
+
+    <section id="faq-vendas" class="faq-section section dark-section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Geo Services: <span>Perguntas e Respostas</span></h2>
+                <p class="section-desc">Guia rápido para vendedores e consultores sobre licenciamento e serviços de Google Maps.</p>
+            </div>
+
+            <div class="accordion accordion-2-col fade-up delay-1" style="max-width: 1100px; margin: 0 auto; margin-top: 50px;">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Por que comprar o Google Maps com a IPNET e não direto no cartão de crédito?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>O faturamento via cartão corporativo limita o crescimento e gera dor de cabeça fiscal. Com a IPNET by vivo, oferecemos faturamento em Reais via boleto (Invoicing) no modelo de Uso Faturado, evitando estornos e surpresas. Além do ganho contábil, a conta já conta com o acompanhamento gratuito do nosso time para garantir as melhores práticas desde o Dia 1.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Na prática, o que é o serviço de sustentação Geo Core?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>É o nosso braço direito técnico. O <strong>Geo Core</strong> funciona através de engenheiros dedicados a acompanhar ativamente seu ambiente. Ele atua na otimização de APIs, identificando consultas redundantes, implementando boas práticas de *caching* e reajustando chaves de segurança para evitar vazamento de consumo e fraudes na sua cota.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Como o serviço Geo Core ajuda o cliente no aspecto de FinOps?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Totalmente. O nosso time não gerencia apenas a conta estrutural, mas analisa o comportamento dos usuários dentro do app. Através do Assessment Técnico, diagnosticamos exatamente quais chamadas estão sendo feitas (ex: Places auto-complete excessivo) e recomendamos ajustes na arquitetura ou limites de restrição, chegando a reduzir faturas complexas em até 40% a 70%.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>E se meu aplicativo iniciar uma campanha sazonal de alto tráfego?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Plataformas de logística, delivery e e-commerce não podem cair. Através do monitoramento proativo, nossos clientes nos avisam de janelas sazonais (ex: Black Friday) e fazemos a intermediação direta com a engenharia do Google Maps, pedindo a expansão de cotas limites de QPS (Queries Per Second) de forma instantânea para suportar a nova demanda de tráfego sem queda da funcionalidade do mapa.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>As capacitações e workshops são focados apenas em desenvolvedores?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Não. Os nossos Workshops (Geocoding, Routes, Places) engajam todo o C-Level e times de produto para entender o real valor dos Dados Geoespaciais. Educamos o cliente para usar o Maps não só como "vetor de navegação", mas como inteligência demográfica: achar novas zonas de expansão de lojas e enriquecer o perfil do cliente baseando-se no comportamento territorial.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Existe ganho fiscal ou tributário ao faturar com a IPNET via Boleto (Invoicing)?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Sim, muito relevante. Ao comprar via cartão de crédito internacional, sua empresa paga IOF e não tem a nota fiscal brasileira de serviços para dedução de impostos. Com a IPNET by vivo, emitimos **Nota Fiscal de Serviços (NFS) local**, permitindo o aproveitamento comercial e contábil completo, além de eliminar a flutuação do câmbio no fechamento do faturamento.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>A IPNET cobra alguma taxa adicional além do consumo das APIs?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Não. No modelo de licenciamento padrão, o cliente paga os mesmos valores de tabela do Google. O grande diferencial é que, ao consolidar o faturamento conosco, você ganha acesso ao nosso suporte básico de faturamento e governança sem custo adicional, transformando um gasto passivo em uma conta gerenciada estrategicamente.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>O que é o Assessment Técnico e por que meu cliente precisa dele antes de fechar?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Muitos clientes usam o Maps de forma ineficiente, gerando custos altos. O **Assessment da IPNET** é uma análise pré-vendas onde nossos arquitetos auditam o código do cliente para identificar chamadas redundantes. Frequentemente conseguimos reduzir a projeção de gastos em 30% antes mesmo do cliente assinar o contrato, gerando confiança imediata no valor da nossa consultoria.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Como a IPNET ajuda se o consumo do cliente disparar repentinamente?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Diferente do Google direto, onde você só percebe o estouro na fatura do mês seguinte, a IPNET configura alertas de orçamento granulares no Console. Nossa equipe de Sustentação Geo Core também recebe notificações de anomalias e atua proativamente contatando o cliente em caso de picos estranhos para validar se é um crescimento real ou um vazamento de chave ou fraude.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h4>Podemos migrar um cliente que já está no cartão de crédito para a IPNET sem downtime?</h4>
+                        <i class="ri-add-line"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Sim, o processo de migração é transparente. Não há troca de chaves de API nem interrupção do serviço. Movemos apenas a conta de faturamento para o faturamento da IPNET e o cliente passa a receber boletos em Reais imediatamente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="logo-ipnet-by-vivo.png" alt="IPNET by vivo" class="footer-logo">
+                </div>
+                <div class="social-links" style="margin-top: 20px;">
+                    <a href="#"><i class="ri-linkedin-box-fill" style="font-size: 1.25rem;"></i></a>
+                    <a href="#"><i class="ri-instagram-line" style="font-size: 1.25rem;"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Managed Services</h4>
+                <ul>
+                    <li><a href="index.html#areas">Áreas da IPNET</a></li>
+                    <li><a href="google-maps.html">Geo Services</a></li>
+                    <li><a href="ms-workspace.html">Collaboration Services</a></li>
+                    <li><a href="ms-tss.html">Tech Solution Services</a></li>
+                    <li><a href="ms-cloud.html">Cloud | Infra Services</a></li>
+                    <li><a href="ms-data.html">Data Services</a></li>
+                    <li><a href="ms-finops.html">FinOps</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Ferramentas Internas</h4>
+                <ul>
+                    <li><a href="google-maps.html">Google Maps Platform</a></li>
+                    <li><a href="ms-workspace.html">Google Workspace</a></li>
+                    <li><a href="ms-oracle.html">Oracle Cloud (OCI)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2025 IPNET by vivo. Uso exclusivo interno @ipnet.cloud</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Removed API SKU Interaction Logic as requested
+
+        const cards = document.querySelectorAll('.clickable-card');
+        const backBtn = document.getElementById('btn-back-grid');
+        const grid = document.getElementById('geo-grid');
+        const trainingItems = document.querySelectorAll('.clickable-training');
+        const workshopItems = document.querySelectorAll('.clickable-workshop');
+
+        const resetAll = () => {
+            cards.forEach(card => {
+                card.style.display = '';
+                card.classList.remove('is-expanded');
+                const detail = card.querySelector('.card-detail-content');
+                if(detail) detail.style.display = 'none';
+                const desc = card.querySelector('.geo-core-desc');
+                if(desc) desc.style.display = 'block';
+                card.style.width = '';
+            });
+            grid.style.display = 'grid';
+            backBtn.style.display = 'none';
+
+            workshopItems.forEach(item => {
+                item.classList.remove('is-active-workshop');
+                const details = item.querySelector('.workshop-item-details');
+                if(details) details.style.display = 'none';
+                item.style.display = '';
+            });
+
+            trainingItems.forEach(item => {
+                item.classList.remove('is-active-training');
+                const details = item.querySelector('.training-item-details');
+                if(details) details.style.display = 'none';
+                item.style.display = '';
+                // Reset all nested topics
+                item.querySelectorAll('.topic-details').forEach(td => td.style.display = 'none');
+            });
+        };
+
+        cards.forEach(card => {
+            card.addEventListener('click', (e) => {
+                if (card.classList.contains('is-expanded')) return;
+                if (e.target.closest('.training-item-v2') || e.target.closest('.workshop-item')) return;
+
+                cards.forEach(c => { if(c !== card) c.style.display = 'none'; });
+                card.classList.add('is-expanded');
+                const detail = card.querySelector('.card-detail-content');
+                if(detail) detail.style.display = 'block';
+                const desc = card.querySelector('.geo-core-desc');
+                if(desc) desc.style.display = 'none';
+                if(backBtn) backBtn.style.display = 'inline-flex';
+                card.style.width = '100%';
+                grid.style.display = 'block';
+            });
+        });
+
+        backBtn.addEventListener('click', resetAll);
+
+        trainingItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                
+                // If clicking a topic inside an active training, let the topic handler work
+                if (e.target.closest('.clickable-topic')) return;
+
+                if (item.classList.contains('is-active-training')) {
+                     if (e.target.classList.contains('btn-close-training') || e.target.classList.contains('expand-icon')) {
+                         trainingItems.forEach(ti => ti.style.display = '');
+                         item.classList.remove('is-active-training');
+                         item.querySelector('.training-item-details').style.display = 'none';
+                         item.querySelectorAll('.topic-details').forEach(td => td.style.display = 'none');
+                     }
+                     return;
+                }
+                trainingItems.forEach(ti => { if (ti !== item) ti.style.display = 'none'; });
+                item.classList.add('is-active-training');
+                item.querySelector('.training-item-details').style.display = 'block';
+                
+                // Better scroll with offset
+                setTimeout(() => {
+                    const offset = 100;
+                    const elementPosition = item.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - offset;
+                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                }, 100);
+            });
+        });
+
+        // Deep Topics Interaction
+        document.querySelectorAll('.clickable-topic').forEach(topic => {
+            topic.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const details = topic.querySelector('.topic-details');
+                const isVisible = details.style.display === 'block';
+                
+                // Close others in same list
+                const parentList = topic.closest('.ementa-list-v2');
+                if(parentList) {
+                    parentList.querySelectorAll('.topic-details').forEach(d => d.style.display = 'none');
+                }
+
+                details.style.display = isVisible ? 'none' : 'block';
+            });
+        });
+
+        workshopItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (item.classList.contains('is-active-workshop')) {
+                     if (e.target.classList.contains('btn-close-workshop') || e.target.classList.contains('expand-icon')) {
+                         workshopItems.forEach(wi => wi.style.display = '');
+                         item.classList.remove('is-active-workshop');
+                         item.querySelector('.workshop-item-details').style.display = 'none';
+                     }
+                     return;
+                }
+                workshopItems.forEach(wi => { if (wi !== item) wi.style.display = 'none'; });
+                item.classList.add('is-active-workshop');
+                item.querySelector('.workshop-item-details').style.display = 'block';
+                
+                // Better scroll with offset
+                setTimeout(() => {
+                    const offset = 100;
+                    const elementPosition = item.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - offset;
+                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                }, 100);
+            });
+        });
+    });
+    </script>
+</body>
+</html>
